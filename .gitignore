@@ -17,6 +17,10 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+### terraform ###
+**/.terraform/*
+.terraform.lock.hcl
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
