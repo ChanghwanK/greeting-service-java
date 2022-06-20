@@ -37,7 +37,7 @@ class GreetingControllerTests {
             )
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.statusCode").value(200))
-            .andExpect(jsonPath("$.message").value("Hello World"))
+            .andExpect(jsonPath("$.message").value("Hello World Changhwan"))
         ;
     }
 }
