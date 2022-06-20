@@ -6,7 +6,7 @@ phases:
       java: corretto11
   pre_build:
     commands:
-      - echo hello world
+      - echo 'pre-build start'
       - java -version
       - git --version
   build:

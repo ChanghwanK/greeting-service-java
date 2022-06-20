@@ -13,7 +13,7 @@ public class GreetingController {
     public CommonResponse hello() {
         return CommonResponse.builder()
             .statusCode(200)
-            .message("Hello World Changhwan")
+            .message("Hello Changhwan")
             .build();
     }
 }
