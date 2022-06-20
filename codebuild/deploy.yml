@@ -8,9 +8,12 @@ phases:
     commands:
       - echo hello world
       - java -version
+      - git --version
   build:
     commands:
       - echo Build started
+      - java -version
+      - python --version
   post_build:
     commands:
       - echo Build completed on
