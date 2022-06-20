@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+  pre_build:
+    commands:
+      - echo hello world
+      - java -version
+  build:
+    commands:
+      - echo Build started
+  post_build:
+    commands:
+      - echo Build completed on
